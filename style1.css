@@ -1,0 +1,178 @@
+/* Nav st */
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.signin{
+    text-decoration: none;
+    color: rgb(102,102,102);
+    margin-top: 1rem;
+    border: none;
+}
+.sign{
+    text-decoration: none;
+    color: rgb(10,102,194);
+    border: 1px solid rgb(10,102,194);
+    border-radius: 2rem;
+    padding: .3rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    margin-left: .5rem;
+}
+.sign:hover{
+    background-color: rgb(231, 231, 231);
+}
+.signin:hover{
+    background-color: rgb(231, 231, 231);
+}
+.in{
+    margin-top: 1.6rem;
+}
+@media screen and (max-width:307px) {
+    nav{
+        display: block;
+    }
+}
+/* Nav end */
+/* TY st */
+.ty{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 2rem;
+}
+@media screen and (max-width:800px) {
+    .ty{
+        display: block;
+    }
+    .ii{
+        padding-top: 2rem;
+    }
+}
+.car{
+    padding-top: 1rem;
+}
+.at a{
+    text-decoration: none;
+    color: rgb(25,25,25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgb(235,235,235);
+    padding: .9rem;
+}
+.at a:hover{
+    color: black;
+    box-shadow: .1px .1px 15px .1px;
+}
+.at1 a{
+    text-decoration: none;
+    color: rgb(25,25,25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgb(235,235,235);
+    padding: .9rem;
+    margin-top: 1rem;
+}
+.at1 a:hover{
+    color: black;
+    box-shadow: .1px .1px 15px .1px;
+}
+.at2 a{
+    text-decoration: none;
+    color: rgb(25,25,25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgb(235,235,235);
+    padding: .9rem;
+    margin-top: 1rem;
+}
+.at2 a:hover{
+    color: black;
+    box-shadow: .1px .1px 15px .1px;
+}
+/* TY end */
+/* First st */
+.first{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 1rem;
+}
+.first h1{
+    width: 89%;
+}
+.fir1 button{
+    border: none;
+    border-radius: .2rem;
+    margin-top: 2rem;
+    background-color: white;
+    margin-left: 1rem;
+}
+.fir1 button:hover{
+    background-color: rgb(221, 221, 221);
+}
+.fir1 a{
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: .8rem;
+    background-color: rgb(233, 233, 233);
+    margin: 5px;
+    color: black;
+}
+.fir1 a:hover{
+    color: black;
+    background-color: rgb(206, 206, 206);
+    text-decoration: underline;
+}
+@media screen and (max-width:800px) {
+    .first{
+        display: block;
+    }
+}
+/* First end */
+/* Secend St */
+.secend{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.secend h1{
+    width: 85%;
+}
+.sec1 button{
+    border: none;
+    border-radius: .2rem;
+    margin-top: 2rem;
+    background-color: white;
+    margin-left: 1rem;
+}
+.sec1 button:hover{
+    background-color: rgb(221, 221, 221);
+}
+.sec1 a{
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: .8rem;
+    background-color: rgb(233, 233, 233);
+    margin: 5px;
+    color: black;
+}
+.sec1 a:hover{
+    color: black;
+    background-color: rgb(206, 206, 206);
+    text-decoration: underline;
+}
+@media screen and (max-width:800px) {
+    .secend{
+        display: block;
+    }
+}
+/* Secend end */
+@media screen and (max-width:720px) {
+    nav{
+        width: 100%;
+    }
+    .ty{
+        width: 100%;
+    }
+    .first{
+        width: 100%;
+    }
+    .secend{
+        width: 100%;
+    }
+}
